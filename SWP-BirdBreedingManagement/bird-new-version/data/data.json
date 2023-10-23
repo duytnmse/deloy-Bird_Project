@@ -1,0 +1,219 @@
+{
+  "staffs": [
+    {
+      "id": "1",
+      "username": "minhduy",
+      "email": "tnmd13@gmail.com",
+      "password": "123123123",
+      "fullName": "Tran Ngo Minh Duy",
+      "createdAt": "2023-10-15T08:00:00Z",
+      "role": "MANAGER"
+    },
+    {
+      "id": "2",
+      "username": "quoctinh",
+      "email": "mvqt@gmail.com",
+      "password": "987654321",
+      "fullName": "Mai Van Quoc Tinh",
+      "createdAt": "2023-10-15T08:00:00Z",
+      "role": "STAFF"
+    },
+    {
+      "username": "khoadang123",
+      "email": "khoadangbe@gmail.com",
+      "password": "4211241",
+      "fullName": "Nguyễn Võ Đăng Khoa",
+      "role": "STAFF",
+      "id": "sC2x9Ep"
+    },
+    {
+      "username": "quoctinh",
+      "email": "quoctinh123fe@gmail.com",
+      "password": "123456",
+      "fullName": "Mai Văn Quốc Tịnh",
+      "role": "STAFF",
+      "id": "Wvzy5G8"
+    },
+    {
+      "username": "bachtong1",
+      "email": "bachtong1@gmail.com",
+      "password": "kSUVYA9G",
+      "fullName": "Nguyễn Bách Tòng",
+      "role": "STAFF",
+      "id": "D76Ub_W"
+    },
+    {
+      "username": "manager",
+      "email": "manager@gmail.com",
+      "password": "1",
+      "fullName": "Manager",
+      "role": "MANAGER",
+      "id": "905Rgp6"
+    }
+  ],
+  "birds": [
+    {
+      "id": "A09",
+      "bird_type": "Chích chòe than",
+      "sex": "FEMALE",
+      "birthday": "2023-10-26",
+      "cage": {
+        "cageId": 1,
+        "userId": 2,
+        "location": "A01"
+      },
+      "weight": 800,
+      "ageRange": "truongthanh",
+      "mutationRate": 0.09,
+      "mutation": "none",
+      "featherColor": "Đen"
+    },
+    {
+      "id": "A05",
+      "bird_type": "Chích chòe lửa",
+      "sex": "MALE",
+      "birthday": "2023-10-18",
+      "cageid": "A03",
+      "weight": 500,
+      "ageRange": "chuyen",
+      "mutationRate": 0.09,
+      "mutation": "none",
+      "featherColor": "Đen"
+    },
+    {
+      "id": "A04",
+      "bird_type": "Chích chòe than",
+      "sex": "MALE",
+      "hatchDate": "2023-10-19",
+      "cageid": "A04",
+      "ageRange": "chuyen",
+      "mutationRate": 0.08,
+      "mutation": "none",
+      "weight": 600,
+      "featherColor": "Đen"
+    },
+    {
+      "bird_type": "Chích chòe than",
+      "sex": "FEMALE",
+      "hatchDate": "2023-10-19",
+      "cageid": "A04",
+      "ageRange": "chuyen",
+      "mutationRate": 0.09,
+      "mutation": "none",
+      "weight": 800,
+      "featherColor": "Đen",
+      "id": "WrCN2Dm"
+    },
+    {
+      "bird_type": "Chích chòe lửa",
+      "sex": "FEMALE",
+      "hatchDate": "2023-10-18",
+      "cageid": "h3T9Fo4",
+      "ageRange": "non",
+      "mutationRate": 0.05,
+      "mutation": "none",
+      "weight": 600,
+      "featherColor": "vàng",
+      "id": "Mfr9BFs"
+    },
+    {
+      "bird_type": "Chích chòe than",
+      "sex": "MALE",
+      "hatchDate": "2023-10-02",
+      "cageid": "A01",
+      "ageRange": "chuyen",
+      "mutationRate": 0.09,
+      "mutation": "none",
+      "weight": 800,
+      "featherColor": "Đen",
+      "image": "https://utfs.io/f/b5009e27-6b7f-47b3-a286-d2a345ff661e-5nnbsq.png",
+      "id": "bCu1Dli"
+    },
+    {
+      "birdTypeName": "Chích chòe lửa",
+      "sex": "FEMALE",
+      "cageId": 12,
+      "ageRange": "non",
+      "mutationRate": 9,
+      "mutation": "none",
+      "weight": 700,
+      "featherColor": "Đen",
+      "image": "",
+      "id": "Gj00iox"
+    },
+    {
+      "birdTypeName": "Chích chòe than",
+      "sex": "MALE",
+      "hatchDate": "2023-10-20",
+      "cageId": 3,
+      "ageRange": "non",
+      "mutationRate": 9,
+      "mutation": "none",
+      "weight": 600,
+      "featherColor": "Đen",
+      "image": "https://utfs.io/f/c9eea477-c181-404d-a713-10f4e602300d-oexo27.ico",
+      "id": "_HI7hnA"
+    },
+    {
+      "birdTypeName": "than",
+      "sex": "MALE",
+      "hatchDate": "2023-10-20",
+      "cageId": 5,
+      "ageRange": "non",
+      "mutationRate": 0.09,
+      "mutation": "none",
+      "weight": 800,
+      "featherColor": "vàng",
+      "image": "https://utfs.io/f/3809241c-11ba-4b90-a2b2-09aad7d0117b-oexo27.ico",
+      "id": "MDFYlRK"
+    }
+  ],
+  "cages": [
+    {
+      "id": "A01",
+      "location": 1,
+      "quantity": 8
+    },
+    {
+      "id": "A02",
+      "location": 2,
+      "quantity": 10
+    },
+    {
+      "id": "A03",
+      "location": 3,
+      "quantity": 6
+    },
+    {
+      "id": "A001",
+      "location": "A"
+    },
+    {
+      "location": "B",
+      "id": "h3T9Fo4"
+    }
+  ],
+  "processes": [
+    {
+      "id": "P01",
+      "mother_id": "B01",
+      "father_id": "B02",
+      "cageid": "A01",
+      "bird_type": "Chich Choe Lua"
+    },
+    {
+      "id": "P02",
+      "mother_id": "B03",
+      "father_id": "B04",
+      "cageid": "A02",
+      "bird_type": "Chich Choe Than"
+    },
+    {
+      "id": "P03",
+      "mother_id": "B05",
+      "father_id": "B06",
+      "cageid": "A03",
+      "bird_type": "Chich Choe Lua"
+    }
+  ]
+}
